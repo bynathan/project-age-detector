@@ -42,7 +42,7 @@ verificar.addEventListener('click', () => {
             // ADULTO
             genero = "um Homem"
             photo.setAttribute("src", "./img/mascadulto.png")
-        } else if (resultyear >= 60  && resultyear <= 200){
+        } else if (resultyear >= 60  && resultyear <= 1000){
             // IDOSO
             genero = "um Senhor"
             photo.setAttribute("src", "./img/mascidoso.png")
@@ -64,7 +64,7 @@ verificar.addEventListener('click', () => {
             // ADULTO
             genero = "uma Mulher"
             photo.setAttribute("src", "./img/femadulta.png")
-        } else if (resultyear >= 60 && resultyear <= 200){
+        } else if (resultyear >= 60 && resultyear <= 1000){
             // IDOSO
             genero = "uma Senhora"
             photo.setAttribute("src", "./img/femidosa.png")

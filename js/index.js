@@ -70,7 +70,7 @@ verificar.addEventListener('click', () => {
             photo.setAttribute("src", "./img/femidosa.png")
         }
     }
-    result.innerHTML = `<p>Detectamos ${genero} de ${resultyear} anos.</p>`
+    result.innerHTML = `<p>Detectamos ${genero} com ${resultyear} anos até o final de ${years}.</p>`
 }
 
     nameTxt.innerHTML = `<h5>${name1}</h5>`

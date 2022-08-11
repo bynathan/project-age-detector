@@ -1,7 +1,7 @@
 const radioMasc = document.getElementById('radiomasc');
 const radioFem = document.getElementById('radiofem');
 const verificar = document.getElementById('btnverificar');
-const name1 = window.prompt('Qual seu nome?')
+const name1 = window.prompt('Digite seu nome completo:')
 let nameTxt = document.getElementById('name')
 let result = document.getElementById('result');
 let photo = document.getElementById('photo');

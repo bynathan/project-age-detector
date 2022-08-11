@@ -1,0 +1,43 @@
+@media(max-width: 608px){
+    body {
+        transform: scale(0.8);
+    }
+    #name {
+        top: 420px;
+    }
+    #year {
+        border: 2px solid black;
+    }
+}
+
+@media(max-width: 488px){
+    body {
+        transform: scale(0.6);
+    }
+    #name {
+        top: 420px;
+    }
+}
+
+@media(max-width: 439px){
+    header h1{
+        font-size: 30px;
+    }
+
+    #name {
+        top: 395px;
+    }
+}
+
+@media(max-width: 439px){
+    header h1{
+        font-size: 28px;
+    }
+    body {
+        transform: scale(0.5);
+        margin: 0;
+    }
+    #name {
+        top: 393px;
+    }
+}

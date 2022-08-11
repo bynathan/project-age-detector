@@ -1,0 +1,124 @@
+body {
+    background-color: #000000;
+    color: white;
+    font: normal 20px Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    width: 600px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.315);
+    border-radius: 20px;
+    color: black;
+}
+
+footer p {
+    font-style: italic;
+}
+
+#infosone {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+#infosone input{
+    height: 15px;
+    margin-top: 2px;
+}
+
+#infosone p {
+    margin: 0px;
+}
+
+#infostwo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+#infostwo label{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 1px;
+}
+
+#infostwo p {
+    margin: 0;
+}
+
+#infostwo input{
+    margin-left: 10px;
+}
+
+#infostree {
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+}
+
+#infostree input {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid white;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+#infostree input:hover {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+#infosfor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer p {
+    color: white;
+}
+
+.containerresult {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.containerresult p{
+    margin: 0;
+}
+
+#name {
+    position: absolute;
+    top: 430px;
+    z-index: 5;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    color: rgb(27, 27, 27);
+}
+
+#photo {
+    margin-top: 20px;
+}
+
+#result {
+    margin: 0px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta rel="author" content="Nathan Silva - (Fire)">
+    <meta name="description" content="Project made to detect the age and gender of the user.">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');</style>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link id="favicon" rel="icon" href="./img/faviconmoning.png">
+    <title id="title"></title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade !!!</h1>
+    </header>
+    <main>
+        <div id="infosone">
+            <p>Ano de Nascimento: <input type="number" id="year"></p>
+        </div>
+        <div id="infostwo">
+            <p>Sexo:</p>
+            <input type="radio" name="radiomasc" id="radiomasc" checked>
+            <label for="radiomasc">Masculino</label>
+            <input type="radio" name="radiofem" id="radiofem">
+            <label for="radiofem">Feminino</label>
+        </div>
+        <div id="infostree">
+            <input type="button" value="Verificar" id="btnverificar">
+        </div>
+        <div class="containerresult">
+            <p id="result" >Preencha os dados acima para ver o resultado!</p>
+            <img id="photo" src="./img/identidade.png">
+            <h5 id="name"></h5>
+        </div>
+    </main>
+    <footer>
+        <a href="http://" target="_blank"><p>&copy; Nathan Silva - Development</p></a>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>

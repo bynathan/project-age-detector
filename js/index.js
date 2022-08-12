@@ -1,7 +1,7 @@
 const radioMasc = document.getElementById('radiomasc');
 const radioFem = document.getElementById('radiofem');
 const verificar = document.getElementById('btnverificar');
-const name1 = window.prompt('Qual seu nome?')
+const name1 = window.prompt('Digite seu nome completo:')
 let nameTxt = document.getElementById('name')
 let result = document.getElementById('result');
 let photo = document.getElementById('photo');
@@ -24,6 +24,7 @@ verificar.addEventListener('click', () => {
     if(inpt.value.length == 0 || inpt.value >= year){
         window.alert('[ERROR] Verifique os dados e tente novamente !!!');
         result.innerHTML = `<p>Não Detectado, preencha as informações</p>`
+        photo.setAttribute("src", "./img/identidade.png")
     } else{
         if(radioMasc.checked){
         if(resultyear >= 1 && resultyear <= 4){
@@ -70,7 +71,7 @@ verificar.addEventListener('click', () => {
             photo.setAttribute("src", "./img/femidosa.png")
         }
     }
-    result.innerHTML = `<p>Detectamos ${genero} de ${resultyear} anos.</p>`
+    result.innerHTML = `<p>Detectamos ${genero} com ${resultyear} anos até o fim de ${years}.</p>`
 }
 
     nameTxt.innerHTML = `<h5>${name1}</h5>`

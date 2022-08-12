@@ -1,7 +1,7 @@
 const radioMasc = document.getElementById('radiomasc');
 const radioFem = document.getElementById('radiofem');
 const verificar = document.getElementById('btnverificar');
-const name1 = window.prompt('Digite seu nome completo:')
+const name1 = window.prompt('Qual seu nome?')
 let nameTxt = document.getElementById('name')
 let result = document.getElementById('result');
 let photo = document.getElementById('photo');
@@ -42,7 +42,7 @@ verificar.addEventListener('click', () => {
             // ADULTO
             genero = "um Homem"
             photo.setAttribute("src", "./img/mascadulto.png")
-        } else if (resultyear >= 60  && resultyear <= 1000){
+        } else if (resultyear >= 60  && resultyear <= 200){
             // IDOSO
             genero = "um Senhor"
             photo.setAttribute("src", "./img/mascidoso.png")
@@ -64,13 +64,13 @@ verificar.addEventListener('click', () => {
             // ADULTO
             genero = "uma Mulher"
             photo.setAttribute("src", "./img/femadulta.png")
-        } else if (resultyear >= 60 && resultyear <= 1000){
+        } else if (resultyear >= 60 && resultyear <= 200){
             // IDOSO
             genero = "uma Senhora"
             photo.setAttribute("src", "./img/femidosa.png")
         }
     }
-    result.innerHTML = `<p>Detectamos ${genero} com ${resultyear} anos até o final de ${years}.</p>`
+    result.innerHTML = `<p>Detectamos ${genero} de ${resultyear} anos.</p>`
 }
 
     nameTxt.innerHTML = `<h5>${name1}</h5>`

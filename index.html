@@ -5,41 +5,180 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta rel="author" content="Nathan Silva - (Fire)">
-    <meta name="description" content="Project made to detect the age and gender of the user.">
-    <style>@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');</style>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/responsive.css">
-    <link id="favicon" rel="icon" href="./img/faviconmoning.png">
-    <title id="title"></title>
+    <meta name="description" content="Meu primeiro portfolio.">
+    <meta name="author" content="Nathan Silva - (Fire)">
+    <link rel="icon" href="./img/favicon.png">
+    <title>Portfolio: Nathan Silva (Fire)</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+    </style>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/infosprofile.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/status.css">
+    <link rel="stylesheet" href="./css/buttons.css">
+    <link rel="stylesheet" href="./css/tabs.css">
+    <link rel="stylesheet" href="./css/gridstabs.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/responsividade.css">
+    <link rel="stylesheet" href="./css/skills.css">
 </head>
-<body>
-    <header>
-        <h1>Verificador de Idade !!!</h1>
-    </header>
-    <main>
-        <div id="infosone">
-            <p>Ano de Nascimento: <input type="number" id="year"></p>
+
+<body class="dark">
+
+    <div class="full">
+        <div class="topicons">
+
+            <div class="topiconblack dark" id="ThemeDark"><img src="./img/topiconblack.png" title="Dark Theme"></div>
+
+            <div class="topiconwhite dark" id="ThemeLight"><img src="./img/topiconwhite.png" title="Light Theme"></div>
+
         </div>
-        <div id="infostwo">
-            <p>Sexo:</p>
-            <input type="radio" name="radiomasc" id="radiomasc" checked>
-            <label for="radiomasc">Masculino</label>
-            <input type="radio" name="radiofem" id="radiofem">
-            <label for="radiofem">Feminino</label>
+        <div class="infosprofile">
+            <div>
+                <div class="profilewhite dark"><img src="./img/profilewhite.png"></div>
+                <div class="profileblack dark"><img src="./img/profileblack.png"></div>
+            </div>
+            <div class="textinfos">
+
+                <div class="infosone dark">
+                    <div class="infosnome">
+                        <h1>Nathan</h1><h1 class="n-2">Silva</h1>
+                    </div>
+                    <div>
+                        <h2>(Fire)</h2>
+                    </div>
+                </div>
+
+                <div class="infostwo dark">
+                    <h3>Front-end Developer.</h3>
+                </div>
+
+                <div class="icons">
+                    <div class="iconsone dark">
+                        <a href="https://github.com/bynathan" target="_blank"><img src="./img/blackgithubicon.png"></a>
+                        <a href="https://www.linkedin.com/in/nathan-silva-a13a0223b/" target="blank"><img src="./img/blacklikedinicon.png"></a>
+                        <a href="https://www.instagram.com/firecsgo/" target="blank"><img src="./img/blackinstagramicon.png"></a>
+                        <a href="https://api.whatsapp.com/send?phone=5587991644651" target="blank"><img src="./img/blackwhatssapicon.png"></a>
+                    </div>
+                    <div class="iconstwo dark">
+                        <a href="https://github.com/bynathan" target="_blank"><img src="./img/whitegithubicon.png"></a>
+                        <a href="https://www.linkedin.com/in/nathan-silva-a13a0223b/" target="blank"><img src="./img/whitelikedinicon.png"></a>
+                        <a href="https://www.instagram.com/firecsgo/" target="blank"><img src="./img/whiteinstagramicon.png"></a>
+                        <a href="https://api.whatsapp.com/send?phone=5587991644651" target="blank"><img src="./img/whitewhatssapicon.png"></a>
+                    </div>
+               </div>
+            </div>
         </div>
-        <div id="infostree">
-            <input type="button" value="Verificar" id="btnverificar">
+        <div class="statusfull">
+
+            <div class="status dark">
+                <h1>0+</h1>
+                <h2>Years of work</h2>
+                <h3>experience</h3>
+            </div>
+
+            <div class="status dark">
+                <h1>0+</h1>
+                <h2>Customers</h2>
+                <h3>satisfied</h3>
+            </div>
+
+            <div class="status dark">
+                <h1>1+</h1>
+                <h2>Completed</h2>
+                <h3>projects</h3>
+            </div>
         </div>
-        <div class="containerresult">
-            <p id="result" >Preencha os dados acima para ver o resultado!</p>
-            <img id="photo" src="./img/identidade.png">
-            <h5 id="name"></h5>
+        <div class="buttons">
+            <div class="buttonone dark">
+                <a href="https://docs.google.com/document/d/1RpXCsqEYZ9h2YYXmHxO6LUXdlWhUcz0H1AYwYHrLGWU/edit?usp=sharing">Download CV<img src="./img/downloadicon.png"></a>
+            </div>
+
+            <div class="buttontwo dark">
+                <a href="tel:+55991644651">Contact me</a>
+            </div>
         </div>
-    </main>
-    <footer>
-        <a href="http://" target="_blank"><p>&copy; Nathan Silva - Development</p></a>
-    </footer>
+        <div class="tabs">
+            <div class="tabsbackground dark">
+                <button class="tabsbuttonone dark select">
+                    <p>Portifolio</p>
+                </button>
+                <button class="tabsbuttontwo dark">
+                    <p>Skills</p>
+                </button>
+            </div>
+        </div>
+        <div class="gridsfull">
+            <div class="projectsgrid">
+                <div>
+                    <a href="https://bynathan.github.io/project-figmaland/"><img src="./img/downloadproject.png" class="downloadprojects"></a>
+                    <img src="./img/projecttwo.png">
+                </div>
+
+                <div>
+                    <a href=""><img src="./img/embreve.png" class="downloadprojects"></a>
+                    <img src="./img/nopreject.png">
+                </div>
+
+                <div>
+                    <a href=""><img src="./img/embreve.png" class="downloadprojects"></a>
+                    <img src="./img/nopreject.png">
+                </div>
+
+                <div>
+                    <a href=""><img src="./img/embreve.png" class="downloadprojects"></a>
+                    <img src="./img/nopreject.png">
+                </div>
+
+                <div>
+                    <a href=""><img src="./img/embreve.png" class="downloadprojects"></a>
+                    <img src="./img/nopreject.png">
+                </div>
+
+                <div>
+                    <a href=""><img src="./img/embreve.png" class="downloadprojects"></a>
+                    <img src="./img/nopreject.png">
+                </div>
+            </div>
+            <div class="skillsgrid none">
+
+                <div class="skillhtml dark">
+                    <h1>HTML</h1>
+                    <p class="skillbar dark"></p>
+                    <h2>Avançado</h2>
+                </div>
+
+                <div class="skillcss dark">
+                    <h1>CSS</h1>
+                    <p class="skillbar dark"></p>
+                    <h2>Avançado</h2>
+                </div>
+
+                <div class="skilljs dark">
+                    <h1>JavaScript</h1>
+                    <div class="mediumskillbar">
+                        <p class="mediumskillbar dark"></p>
+                        <p class="lowskillbar dark"></p>
+                    </div>
+
+                    <h2>Intermediario</h2>
+                </div>
+
+                <div class="skillreact dark">
+                    <h1>React</h1>
+                    <p class="lowskillbar dark"></p>
+                    <h2>Estudando</h2>
+                </div>
+
+            </div>
+        </div>
+        <footer class="footer dark">
+            <h1>© Nathan Silva<h2>(Fire)</h2><h1>. 2022 All rigths reserved</h1>
+        </footer>
+    </div>
+
     <script src="./js/index.js"></script>
 </body>
+
 </html>

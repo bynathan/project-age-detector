@@ -60,7 +60,7 @@ verificar.addEventListener('click', () => {
         } else if(resultyear < 17){
             // ADOLECENTE
             genero = "uma Jovem"
-            photo.setAttribute("src", "./img/femadoleçente.png")
+            photo.setAttribute("src", "./img/femadolecente.png")
         } else if(resultyear < 59){
             // ADULTO
             genero = "uma Mulher"
